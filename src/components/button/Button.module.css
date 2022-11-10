@@ -1,4 +1,4 @@
-.button-exp {
+.buttonExp {
   background-color: #3DD1E7;
   border: 0 solid #E5E7EB;
   box-sizing: border-box;
@@ -24,11 +24,11 @@
   touch-action: manipulation;
 }
 
-.button-exp:focus {
+.buttonExp:focus {
   outline: 0;
 }
 
-.button-exp:after {
+.buttonExp:after {
   content: '';
   position: absolute;
   border: 1px solid #000000;
@@ -38,13 +38,13 @@
   height: calc(100% - 1px);
 }
 
-.button-exp:hover:after {
+.buttonExp:hover:after {
   bottom: 2px;
   left: 2px;
 }
 
 @media (min-width: 768px) {
-  .button-exp {
+  .buttonExp {
     padding: .75rem 3rem;
     font-size: 1.25rem;
   }
